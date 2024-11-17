@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+    background-color: rgba(212, 211, 210, 0.938); 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+        .postAdDiv{
+    background-color: white;
+     padding: 15px 5px;
+      text-align: center;
+       border-radius: 7px;
+       color: black;
+}
+.outerContainer{
+    padding: 100px 300px;
+    color: rgb(33, 31, 31);
+}
+.formOuterContainer{
+    font-size: 95%;
+    padding: 20px 20px;
+     background-color: white; 
+     border-radius: 7px;
+      margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+    }
+    input{
+        font-size: 95%;
+        border-radius: 3px;
+        padding: 13px 10px;
+        border-width: 1px;
+        outline: none;
+    }
+    select{
+        outline: none;
+        font-size: 95%;
+        border-width: 1px;
+        border-radius: 3px;
+        padding: 13px 10px;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1 class="heading1">
+        <div > 
+            Murang'a university comrades marketplace
+     </div>
+     <nav class="navigationBar">
+     <span class="signInLink"><a href="">Sign In</a></span>
+     <span>||</span>
+     <span class="registerLink"><a href="">Register</a></span>
+     </nav>
+         </h1>
+         <script src="header.js"></script>
+    <div class="outerContainer">
+        <div class="postAdDiv">post ad</div>
+        <form class="formOuterContainer">
+<div style="display: flex; flex-direction: row; gap: 2%;">
+<input placeholder="Title*" style="width: 48%;">
+</div>
+<div style="display: flex; flex-direction: row; gap: 2%;">
+<input placeholder="Brand*" style="width: 48%;">
+<select style="width: 48%;">
+<option value="">Type</option>
+<option></option>
+<option></option>
+<option></option>
+<option></option>
+</select>
+</div>
+<div style="display: flex; flex-direction: row; gap: 2%;">
+<input placeholder="Condition*" style="width: 48%;">
+<fieldset style="display: flex; flex-direction: column; width: 48%;">
+    <legend style="color: black;"><strong>Warranty</strong></legend>
+<label style="color: rgb(32, 32, 32);"><input type="checkbox" style="margin-right: 12px;">Yes</label>
+</fieldset>
+</div>
+<div style="display: flex; flex-direction: row; gap: 2%;">
+<textarea minlength="10" maxlength="200" style="width: 100%; height: 130px; font-size: 16px; outline: none; padding: 6px;" placeholder="Description*"></textarea>
+</div>
+<div style="display: flex; flex-direction: row; gap: 2%;">
+<input placeholder="Ksh Price*" style="width: 48%;">
+<select style="width: 48%;">
+    <option>Add bulk price</option>
+</select>
+</div>
+<div style="display: flex; flex-direction: column; gap: 1%;">
+
+<fieldset style="width: 48%;" style="display: flex; flex-direction: row;">
+    <legend>Are you open to negotiation</legend>
+    <div>
+    <label><input type="radio" name="negotiation">Yes</label>
+  <label> <input type="radio" name="negotiation">No</label>
+   <label><input type="radio" name="negotiation">Not decided</label>
+</div>
+</fieldset>
+</div>
+<div style="display: flex; flex-direction: row; gap: 2%;">
+<input maxlength="10" minlength="10" type="tel" placeholder="Your phone number" style="width: 48%;">
+<input placeholder="Your Name" style="width: 48%;">
+</div>
+<div style="text-align: center;">
+    <button type="submit" style="width: 50%; padding: 12px 1px; color: white; border-radius: 7px; border: none; background-color: rgb(19, 171, 19);">Next</button>
+</div>
+        </form>
+    </div>
+</body>
+</html>

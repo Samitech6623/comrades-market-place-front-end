@@ -1,0 +1,81 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.heading1{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 17%;
+    box-shadow: 0px 2px 6px #068031;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    color: white;
+    background-color: #07a83f;
+    margin: 0px;
+    font-size: 40px;
+    padding: 8px 1px;
+    z-index: 100;
+}
+.signInLink{
+    font-size: 13px;
+    }
+    .navigationBar span{
+        color: white;
+        font-size: 15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .registerLink{
+        font-size: 13px;
+    }
+    .navigationBar{
+        margin-left: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+    .navBarPics{
+        width: 30px;
+        object-fit: contain;
+        border-radius: 15px;
+        background-color:white;
+    }
+    .navButton{
+        margin-left: 18px;
+        cursor: pointer;
+        border-radius: 18px;
+        border-style: none;
+       
+        padding: 4px;
+    }
+    .sell-button{
+        background-color: rgb(226, 152, 14);
+        border-radius: 3px;
+        border: none;
+        min-width: 60px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 5px;
+        padding: 8px 40px;
+    }
+    .sell-button:hover{
+background-color: rgb(246, 106, 31);
+        cursor: pointer;
+    }
+    .navButton:hover{
+        background-color: white;
+        width: 40px;
+        opacity: 0.8;
+        box-shadow: 0px 0px 40px 10px;
+    }
+    .navButton:active{
+        background-color: black;
+    }    

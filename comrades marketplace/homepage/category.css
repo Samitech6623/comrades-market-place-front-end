@@ -1,0 +1,46 @@
+.categories1{
+    width: 270px;
+    position: sticky;
+    top: 70px;
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+ padding: 7px;
+ background-color: white;
+ color: black;
+ height: 450px;
+ overflow-y: scroll;
+ scrollbar-width: 0px;
+ scrollbar-color: white;
+}
+ .categoryContainer{
+    /*position: fixed;
+     left: 0px;
+ bottom: 0px;*/
+ padding-right: 30px;   
+     width: 250px;
+ }
+ .categoriesLogo{
+    width: 30px;
+    border-radius: 6px;
+    border: none;
+}
+.catLinks{
+    width: 100%;
+    text-decoration: none;
+    text-underline-offset: none; 
+}
+.catLinks:hover{
+    background-color: rgb(111, 109, 106);
+}
+.categoryContainer2{
+    padding: 5px 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+      gap: 10px;
+}
+.categoryContainer2:hover{
+    background-color: rgb(111, 109, 106);
+}

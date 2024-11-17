@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+<style>
+        body{
+                padding: 0px;
+                margin: 0px;
+    background-color: #d9d6d668; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.outerContainer{
+    padding: 100px 200px;
+}
+.postAdDiv{
+    background-color: white;
+     padding: 15px 5px;
+      text-align: center;
+       border-radius: 7px;
+}
+.formOuterContainer{
+    padding: 10px 230px;
+     background-color: white; 
+     border-radius: 7px;
+      margin-top: 20px;
+}
+.selectedPics{
+        display: flex;
+        flex-direction: row;
+}
+.nextButton{
+        width: 100%;
+         background-color: rgb(17, 169, 17);
+          border: none;
+           padding: 8px 0px;
+            border-radius: 10px; 
+            width: 100%;
+}
+.nextButton:hover{
+box-shadow: 0px 0px 8px 0px;
+}
+.nextButton:active{
+        background-color: rgb(34, 70, 7), 0, 0), 0, 0);
+}
+.dropZone{
+        display: flex;
+         flex-direction: row;
+          gap: 15px;
+           flex-wrap: nowrap;
+            overflow-x: hidden;
+            border-style: dotted;
+            border-width: 1px;
+            border-radius: 6px;
+            padding: 15px 10px;
+            border-color: rgb(87, 87, 87);
+}
+</style>
+</head>
+<body >
+        <h1 class="heading1">
+                <div > 
+                    Murang'a university comrades marketplace
+             </div>
+             <nav class="navigationBar">
+             <span class="signInLink"><a href="">Sign In</a></span>
+             <span>||</span>
+             <span class="registerLink"><a href="">Register</a></span>
+             </nav>
+                 </h1>
+   <div class="outerContainer">
+    <div class="postAdDiv">post ad</div>
+    <form class="formOuterContainer" action="">
+        <div style="padding: 10px 0px;">
+<select style="width: 100%; font-size: 16px; padding: 18px 8px; border-color: rgb(152, 150, 150); border-radius: 3px;">category
+        <option value="">Category</option>
+        <option value="1">electronics</option>
+        <option value="2">phones</option>
+        <option value="3">laptops</option>
+        <option value="4">households</option>
+
+</select>
+        </div>
+        <div style="padding: 10px 0px;">
+<select style="width: 100%; padding: 18px 8px; border-color: rgb(152, 150, 150); font-size: 16px; border-radius: 3px;">
+        <option value="">Location</option>
+        <option value="1">vm</option>
+        <option value="2">mwangaza</option>
+        <option value="3">catho</option>
+        <option value="4">murang'a high</option>
+
+</select>
+        </div>
+        <div>
+<div style="padding: 10px 0px;">Add photo</div>
+<div style="color: rgb(179, 178, 178); padding: 10px 0px;">
+        first picture-is the title picture.you can change the order of photos:just grab your photos and drag
+</div>
+        </div>
+        <div class="dropZone">             
+               <label><img src><input type="file" multiple style="font-size: 20px; padding: 20px;"></label> 
+                <div class="selectedPics"></div>
+        </div>
+        <div style="color: rgb(179, 178, 178); padding: 10px 0px; ">
+supported formats are *.jpg and *.png
+        </div>
+        <div style="padding: 10px 0px;">
+<button type="submit" class="nextButton">Next</button>
+        </div>
+
+    </form>
+
+   </div> 
+</body>
+</html>

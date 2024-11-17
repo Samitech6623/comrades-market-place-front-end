@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(54, 52, 52);
+padding: 3% 33%;
+font-size: 13px;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.outerDiv{
+    color: rgb(108, 107, 107);
+    background-color: white;
+      display: flex;
+       flex-direction: column;
+        gap: 20px;
+        padding: 50px 40px;
+        border: none;
+        border-radius: 3px;
+    }
+    input{
+        margin: 3px 0px;
+        padding: 15px 10px;
+        border-radius: 4px;
+        border-width: 1px;
+        border-color: rgb(93, 92, 92);
+    }
+    .langDiv button{
+        background-color: white;
+        border-width: 1px;
+        border-color: rgb(100, 100, 100);
+        width: 200px;
+        text-align: center;
+        cursor: pointer;
+        padding: 15px 10px;
+    }
+    .langDiv{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .agree-with-rules-div{
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+        font-size: 15px;
+        color: rgb(107, 236, 107);
+    }
+    .register-button{
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        width: 100%;
+        padding: 20px 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: rgb(75, 186, 75);
+    }
+    .register-button:hover{
+        opacity: 0.7;
+    }
+    .sign-in-div a{
+        color: rgb(66, 195, 66);
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .sign-in-div{
+        font-size: 15px;
+        text-align: center;
+    }

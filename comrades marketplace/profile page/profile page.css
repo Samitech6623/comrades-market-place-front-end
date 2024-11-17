@@ -1,0 +1,236 @@
+body{
+    background-color: rgb(228, 240, 251);
+}
+.outer-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 100px;
+    gap: 50px;
+}
+.left-container{
+width: 300px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.personal-info{
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 17px 17px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.profile-pic img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.profile-settings-link{
+display: flex;
+position: absolute;
+top: 0px;
+cursor: pointer;
+right: 0px;
+font-size: 12px;
+padding: 10px 10px 10px 10px;
+flex-direction: row;
+gap: 2px;
+border-radius: 5px 5px 5px 5px;
+justify-content: flex-end;
+align-items: center;
+}
+
+.profile-settings-link:hover{
+background-color: gainsboro;
+}
+.profile-name{
+font-size: 20px;
+}
+.phone-number{
+    cursor: pointer;
+font-size: 15px;
+font-weight: 30px;
+color: rgb(138, 176, 211);
+margin-bottom: 20px;
+}
+.boundary-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(254, 171, 18);
+}
+.material-icons {
+    font-size: 48px;
+    color: black;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+.ad-related-links{
+    padding: 20px 0px 10px 0px;
+    background-color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.help-links{
+    padding: 20px 0px 10px 0px;
+    background-color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.nav-link:hover{
+color: rgb(31, 148, 31);
+transition: 0s;
+}
+.my-adverts-link,.ad-creation-advice-link,.request-help-link{
+    padding: 0px 10px 10px 10px;
+    cursor: pointer;
+    border-bottom: solid 1px rgb(202, 217, 232);
+}
+.premium-services-link,.FAQs-link{
+    cursor: pointer;
+    padding: 0px 10px 10px 10px;
+}
+.right-container{
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 20px;
+    flex-grow: 1;
+    }
+    .adverts-title-container{
+        padding: 20px 20px 20px 20px;
+display: flex;
+justify-content: space-between;
+        border-bottom: solid 1px rgb(202, 217, 232);
+    }
+    .adverts-title{
+        font-size: 20px;
+    }
+    .adverts-container{
+        padding: 50px 30px;
+display: flex;
+flex-direction: column;
+    }
+    .total-adverts-container{
+        padding: 15px 30px;
+        font-size: 13px;
+        opacity: 0.3;
+        color: white;
+        transition: 0.4ms;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: rgb(23, 182, 23);
+    }
+    .total-adverts{
+        padding: 0px 4px;
+    }
+    .clear-ads-button{
+        cursor: pointer;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 14px;
+        background-color: rgb(255, 165, 0);
+    }
+    .clear-ads-button:hover{
+        opacity: 0.4;
+    }
+    .clear-ads-button:active{
+        background-color: rgb(23, 182, 23);
+        opacity: 1;
+    }
+    .item-container{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        border: solid 1px rgb(202, 217, 232);
+        border-radius: 14px;
+        height: 170px;
+        cursor: pointer;
+        padding: 8px;
+    }
+    .seller-contacts-container{
+        display: flex;
+flex-direction: column;
+justify-content: flex-end;
+gap: 20px;
+    }
+    .seller-contacts-container button{
+        padding: 12px 25px;
+        border-radius: 7px;
+    }
+    .chat-with-seller-button{
+        border: solid 1px #00b53f;
+        background-color: white;
+        color: #00b53f;
+        cursor: pointer;
+    }
+    .seller-contact-button{
+        background-color: #08be33;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .item-pic-info-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .item-pic img{
+        width: 200px;
+        height: 100%;
+        border-radius: 7px;
+        object-fit: cover;
+    }
+    .item-info-location-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .item-info-container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .item-name, .item-price{
+        font-weight: bold;
+    }
+    .item-condition{
+        background-color: #ebf2f7;
+    padding: 4px 10px;
+    border-radius: 3px;
+    }
+    .item-location-container{
+        color: #809caa;
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+        font-size: 12px;
+    }
+    .item-location-container .material-icons{
+        color: #809caa;
+    }
+    .delete-ad-button{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 4px;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        opacity: 0.3;
+        cursor: pointer;
+        background-color: white;
+    }

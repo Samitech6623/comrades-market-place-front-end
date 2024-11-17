@@ -1,0 +1,51 @@
+.heading1{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 400px;
+    justify-content: center;
+    box-shadow: 1px 1px 4px rgba(80, 114, 125, .4);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    color: white;
+    background-color: #00b53f;
+    margin: 0px;
+    font-size: 50px;
+    padding: 1px;
+    z-index: 100;
+}
+.signInLink{
+    font-size: 25px;
+    color: rgb(241, 241, 233);
+    }
+    .registerLink{
+        font-size: 25px;
+        color: rgb(255, 127, 178);
+    }
+    .navigationBar{
+        margin-left: 25px;
+    }
+    .navBarPics{
+        width: 30px;
+        object-fit: contain;
+        border-radius: 15px;
+        background-color:white;
+    }
+    .navButton{
+        margin-left: 18px;
+        cursor: pointer;
+        border-radius: 18px;
+        border-style: none;
+       
+        padding: 4px;
+    }
+    .navButton:hover{
+        background-color: white;
+        width: 40px;
+        opacity: 0.8;
+        box-shadow: 0px 0px 40px 10px;
+    }
+    .navButton:active{
+        background-color: black;
+    }    

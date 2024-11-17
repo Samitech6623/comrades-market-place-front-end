@@ -1,0 +1,95 @@
+.form1{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30px;
+    background-color: aliceblue;
+    border-radius: 10%;
+padding-top: 30px;
+padding-bottom: 50px;
+padding-left: 5px;
+padding-right: 5px;
+overflow: auto;
+}
+.signIn{
+cursor: pointer;
+width: 170px;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 25px;
+border-radius: 20px;
+background-color: aqua;
+padding-left: 2%;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-right: 2%;
+border-width: 15px;
+
+
+}
+.signIn:hover{
+    opacity: 0.5;
+transition: 0.001s;
+}
+.signIn:active{
+
+    background-color: rgb(135, 29, 52);
+}
+.finish{
+margin: 2%;
+}
+.cap1{
+    margin: 2%;
+    color: blue;
+    font-size: 50px;
+}
+.selection{
+    font-size: 20px;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: rgb(228, 239, 235);
+    padding: 2%;
+}
+.selection:hover{
+     background-color: rgb(22, 95, 197);
+     cursor: pointer;
+     border-radius: 20px;
+}
+.selection:active{
+    background-color: white;
+}
+
+.logIn{
+    margin-bottom: 5px;
+    color: darkcyan;
+}
+.logIn:active{
+    color:aqua;
+}
+.logIn:hover{
+    color: brown;
+}
+.logo1{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(10, 133, 65);
+    padding: 3%;
+    color: rgb(159, 20, 20);
+    position: fixed;
+    top: 0px;
+}
+.out1{
+    background-color: beige;
+    background-image: 
+    url('blackmarket pic.jpeg');
+}
+    .footer1{
+        margin-top: 30px;
+        color: blue;
+        text-align: center;
+    }
+    .body1{
+height: 3000px;
+margin-top: 200px;
+    }
